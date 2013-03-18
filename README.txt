@@ -1,3 +1,5 @@
+This is my fork of https://bitbucket.org/fabian/django-taggit-autosuggest
+
 *** Credits ***
     This project is directly based on those projects:
     * Alex Gaynor
@@ -16,7 +18,6 @@
    * Run "python manage.py collectstatic" in your django site dir.
    * Add the following line to your project's urls.py file:
          (r'^taggit_autosuggest/', include('taggit_autosuggest.urls')),
-
 
 *** Settings ***
     TAGGIT_AUTOSUGGEST_STATIC_BASE_URL:
